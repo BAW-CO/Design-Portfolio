@@ -792,12 +792,12 @@ footer {
     flex-direction: row;
     margin: 32px 0;
     width: 100%;
+    justify-content: space-between;
 }
 
     
 .gd__content-row__container {
     width: calc(50% - 16px);
-    margin-right: 16px;
     overflow: hidden;
     height: 330px;
 }
@@ -812,10 +812,8 @@ footer {
 
 .gd__content-row-img {
     display: flex;
-    justify-content: space-between;
     width: calc(50% - 16px);
     height: auto;
-    margin-right: 16px;
     flex-shrink: 0;
     overflow: hidden;
 }
