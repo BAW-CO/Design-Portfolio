@@ -791,6 +791,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin: 32px 0;
+    width: 100%;
 }
 
     
