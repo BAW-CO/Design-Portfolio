@@ -552,7 +552,7 @@ label {
     left: 90px;
     transform: translateY(100%);
     color: white;
-    max-width: 550px;
+    max-width: 580px;
     opacity: 0;
     transition: all 400ms ease;
 }
