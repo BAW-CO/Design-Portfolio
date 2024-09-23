@@ -734,6 +734,14 @@ footer {
     justify-content: space-between;
 }
 
+.gd__content-row-illustration {
+    display: flex;
+    flex-direction: row;
+    width: calc(33% - 16px);
+    height: 100%;
+    justify-content: space-between;
+}
+
     
 .gd__content-row__container {
     width: calc(50% - 16px);
