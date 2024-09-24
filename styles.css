@@ -902,6 +902,12 @@ footer {
         height: auto;
         margin: 8px 0;
     }
+    .gd__content-row-illustration {
+        display: flex;
+        width: 100%;
+        height: auto;
+        margin: 8px 0;
+    }
     
     .gd__content-img {
         width: 100%;
