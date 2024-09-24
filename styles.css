@@ -601,6 +601,11 @@ label {
     margin-right: 8px;
 }
 
+.section-spacer {
+    height: 10vh;
+    width: 100%;
+}
+
 /* Footer */
 
 footer {
