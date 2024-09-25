@@ -95,7 +95,7 @@ nav {
     max-width: 1200px;
     margin: 0 auto;
     height: 100px;
-    padding: 0 20px;
+    padding: 0 32px;
 }
 
 .nav__link--list {
@@ -174,8 +174,6 @@ nav {
 .dark-theme .gd__section__sub-title {
     color: white;
 }
-
-
 
 .dark-theme .social__link {
     color: #242424;
@@ -554,7 +552,7 @@ label {
     left: 90px;
     transform: translateY(100%);
     color: white;
-    max-width: 400px;
+    max-width: 440px;
     opacity: 0;
     transition: all 400ms ease;
 }
@@ -632,7 +630,7 @@ footer {
     font-weight: 300;
 }
 .footer__copyright {
-    color: rgb(253, 249, 244);
+    color: #EFB679;
     font-weight: 300;
 }
 
@@ -954,5 +952,8 @@ footer {
     .mail__btn {
         display: none;
     }
-    
+    .container {
+        padding: 20px 0;
+        width: 100%;
+    }
 }
