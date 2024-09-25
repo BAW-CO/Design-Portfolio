@@ -741,6 +741,14 @@ footer {
     justify-content: space-between;
 }
 
+.gd__content-row-repeat {
+    display: flex;
+    flex-direction: row;
+    margin: 32px 0;
+    width: 100%;
+    justify-content: space-between;
+}
+
 .gd__content-row-illustration {
     display: flex;
     flex-direction: row;
@@ -800,9 +808,15 @@ footer {
     .modal__half {
         width: 100%;
     }
+    .shape--0,
+    .shape--1,
+    .shape--2,
     .shape--3,
     .shape--4,
-    .shape--5 {
+    .shape--5 
+    .shape--6,
+    .shape--7 
+    .shape--8 {
         display: none;
     }
 }
@@ -921,14 +935,18 @@ footer {
         margin: 8px 0;
     }
 
+    .gd__content-row-repeat {
+        display: none;
+    }
+
     .shape--0,
     .shape--1,
     .shape--2,
     .shape--3,
     .shape--4,
-    .shape--5 
+    .shape--5, 
     .shape--6,
-    .shape--7 
+    .shape--7, 
     .shape--8 {
         display: none;
     }
