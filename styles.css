@@ -224,9 +224,9 @@ b {
     background-color: #EFB679;
     color: white;
     padding: 6px;
-    width: 32px;
-    height: 32px;
-    font-size: 14px;
+    width: 40px;
+    height: 40px;
+    font-size: 16px;
     margin-right: 12px;
     display: flex;
     justify-content: center;
@@ -486,6 +486,11 @@ label {
 
 .fa-spinner {
     animation: spinner 1000ms infinite linear;
+}
+
+.modal__language_header {
+    margin-bottom: 8px;
+
 }
 
 @keyframes spinner {
