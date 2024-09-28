@@ -84,7 +84,7 @@ nav,
 /* NAV */
 
 #bw-logo {
-    width: 50px;
+    width: 68px;
 }
 
 nav {
@@ -93,7 +93,7 @@ nav {
     align-items: center;
     width: 100%;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 0 auto 60px;
     height: 100px;
     padding: 0 32px;
 }
@@ -626,7 +626,7 @@ footer {
 }
 
 .footer__logo--img {
-    width: 60px;
+    width: 68px;
 }
 
 .footer__social--link {
