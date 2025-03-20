@@ -652,6 +652,7 @@ label {
     width: 100%;
 }
 
+
 /* Footer */
 
 footer {
@@ -877,18 +878,14 @@ footer {
     }
 
     .project__description {
-        padding: 0;
+        padding: 16px;
         width: 100%;
         left: 0px;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        position: absolute;
-        top: 50%;
-        transform: translateY(100%);
-        color: white;
+        text-align: left;
+        position: static;
+        color: rgb(255, 255, 255);
         max-width: 400px;
-        opacity: 0;
+        opacity: 1;
         transition: all 400ms ease;
     }
 
