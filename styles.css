@@ -635,10 +635,12 @@ label {
     font-size: 20px;
     font-weight: 600;
     letter-spacing: .05em;
+    color: white;
 }
 
 .project__description--para {
     margin: 8px 0 16px 0;
+    color: white;
 }
 
 .project__description--link {
