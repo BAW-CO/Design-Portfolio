@@ -60,12 +60,12 @@ button {
     cursor: pointer;
 }
 
-/* .click:hover {
+.click:hover {
     transform: scale(1.1);
 }
 .click:active {
     transform: scale(0.8);
-} */
+}
 
 nav, 
 .scroll, 
@@ -85,7 +85,8 @@ nav,
 /* NAV */
 
 #bw-logo {
-    width: 68px;
+    width: 80px;
+    height: auto;
 }
 
 nav {
@@ -105,14 +106,14 @@ nav {
 
 
 .nav__link {
-    margin: 0 12px;
+    margin: 0 16px;
 }
 
 .nav__link--anchor {
     text-decoration: none;
     font-family: "Fraunces";
     color: rgb(78, 51, 136);
-    font-size: 16px;
+    font-size: 18px;
 }
 
 .fa-adjust {
@@ -206,8 +207,8 @@ nav {
     display: block;
     text-decoration: none;
     transition: background-color 0.3s;
-    font-size: 14px;
-    padding: 8px 0;
+    font-size: 16px;
+    padding: 10px 0;
 }
 
 .dropdown-menu a:hover {
@@ -561,12 +562,15 @@ label {
 
 .section__title {
     text-align: center;
-    font-size: 48px;
-    margin-bottom: 60px;
+    font-size: 30px;
+    margin-bottom: 70px;
+    margin-top: 30px;
+    font-family: "Fraunces";
+    color: rgb(78, 51, 136);
 }
 
 .project {
-    margin-bottom: 10%;
+    margin-bottom: 15%;
 }
 
 .project__image {
