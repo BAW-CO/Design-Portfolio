@@ -15,6 +15,7 @@ html, body {
     display: flex;
     flex-direction: column;
     scroll-behavior: smooth;
+    background-color: rgb(253, 249, 244)
 }
 
 
@@ -35,7 +36,7 @@ li {
 }
 
 section {
-    background-color: rgb(253, 249, 244);
+    /* background-color: rgb(253, 249, 244); */
     transition: all 300ms ease;
 }
 
@@ -53,9 +54,10 @@ button {
 }
 
 
-#landing-page {
-    min-height: 100vh;
-}
+/* #landing-page {
+    height: 100vh;
+    background-color: rgb(253, 249, 244)
+} */
 
 .click {
     transition: all 300ms ease;
@@ -119,11 +121,6 @@ nav {
     color: rgb(78, 51, 136);
     font-size: 18px;
 }
-
-
-
-
-
 
 
 .fa-adjust {
@@ -243,6 +240,7 @@ nav {
     margin-top: 10%;
     margin-left: 10%;
     z-index: 1000;
+    margin-bottom: 25%;
 }
 
 .title {
@@ -339,6 +337,8 @@ b {
         transform: translateY(-3px);
     }
 }
+
+
 
 /* Modal */
 
@@ -571,14 +571,20 @@ label {
 /* Libraries Section */
 #libraries {
   padding: 40px 0;
+  margin-bottom: 20%;
 }
 
 .library__grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
-  margin-top: 40px;
+  margin-top: 60px;
   text-align: center;
+    max-width: 1200px;   /* controls how wide it can get */
+  margin-left: auto;   /* centers the grid */
+  margin-right: auto;  /* centers the grid */
+  width: 100%;         /* allows it to shrink responsively */
+  padding: 0 20px;  
 }
 
 .library__item {
@@ -595,13 +601,13 @@ label {
 }
 
 .library__icon {
-  width: 120px;       /* adjust size as needed */
+  width: 180px;       /* adjust size as needed */
   height: auto;
   margin-bottom: 16px;
 }
 
 .library__label {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 600;
   color: #222;
 }
@@ -622,9 +628,9 @@ label {
 
 .section__title {
     text-align: center;
-    font-size: 30px;
+    font-size: 50px;
     margin-bottom: 70px;
-    margin-top: 30px;
+    margin-top: 40px;
     font-family: "Fraunces";
     color: rgb(78, 51, 136);
 }
@@ -764,6 +770,7 @@ footer {
     max-height: 100px;
     position: fixed;
     z-index: 0;
+    opacity: .85;
 }
 .shape--0 {
     top: 15vh;
@@ -992,6 +999,8 @@ nav figure {
         font-family: "fraunces";
          
     }
+
+   
 }
 
 /*small phones*/
@@ -1015,6 +1024,10 @@ nav figure {
     height: 48px;
     height: auto;
   }
+
+   .section__title {
+        font-size: 30px;
+    }
 
 
     .title {
